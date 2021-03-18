@@ -8,3 +8,47 @@
 
 
 
+
+
+let naturalNumbers = '';
+for(let i = 1; i <= 100; i ++) {
+  naturalNumbers += i + ' ';
+}
+if (naturalNumbers % naturalNumbers===0) {console.log(naturalNumbers);}
+
+
+
+
+let n=100;
+let counter = 0;
+let primeNumbers = "";
+for(var i=2; i<=n; ++i)
+{
+    counter=0;
+    for(var j=2; j<=n; ++j)
+    {
+        if(i>=j && i%j == 0)
+        {
+            ++counter;
+        }
+    }
+    if(counter == 1)
+        {
+            primeNumbers = primeNumbers + i + "  ";
+        }
+
+}
+
+
+console.log('Input number for starting range: 1');
+console.log('Input number for ending range: 100');
+
+console.log('The prime numbers between 1 and 100 are: ');
+console.log(primeNumbers);
+
+
+console.log('The total number of prime numbers between 1 to 100 is: ', );
+const primeArray = primeNumbers.split('  ');
+var pa = primeArray.filter(Boolean);
+console.log(pa.length);
+
