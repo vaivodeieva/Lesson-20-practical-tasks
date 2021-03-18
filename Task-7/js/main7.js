@@ -18,3 +18,9 @@ let n = 5;
 answer = factorial(n)
 console.log("Input a number to find the factorial: " + n);
 console.log("The factorial of the given number is:" + answer);
+
+
+
+
+
+
